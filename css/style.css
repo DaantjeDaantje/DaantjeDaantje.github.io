@@ -1,0 +1,122 @@
+html{
+    width: 100%;
+}
+
+
+.footerbutton{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    color: white; 
+    font-family: arial; 
+}
+
+
+.button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    font-family: arial;
+}
+
+body{
+    background-image: url("../images/achtergrond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 91%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    font-family: arial;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav
+{
+    width: 65%;
+}
+
+.logo
+{
+    color: white;
+    width: 40%;
+    font-family: Arial;
+}
+
+.tekst{
+    height: 100%;
+    width: 50%;
+    color: white;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.images{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+#league, #kaisa, #lunteren, #scouting, #VSScript, #website{
+    margin-bottom: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 90%;
+}
+ 
+footer{
+    clear: both;
+    height: 10%;
+    margin-top: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#date{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    color: white; 
+    font-family: arial; 
+}
